@@ -121,7 +121,7 @@ The station ids categorical sequences of **symbolic feature names (strings) into
 <img src="Visualizations\Feature_Importance_Graph.png" alt="Feature_Importance_Graph" style="height: 500px; width:800px;"/>
 
 ## **<p style="text-align: center;">Accuracy of the model: 93.26%</p>**
-<br><br>
+<br>
 
 # **Data Model (A decision tree with depth 3)**
 <img src="Data Models\Data_Model_depth_3.png" alt="Feature_Importance_Graph" style="height: 250px; width:1050px;"/>
