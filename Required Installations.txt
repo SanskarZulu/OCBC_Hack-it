@@ -1,0 +1,7 @@
+!pip install numpy
+!pip install pandas
+!pip install scipy
+!pip install matplotlib
+!pip install seaborn
+!pip install -U scikit-learn
+!apt-get -qq install -y graphviz && pip install -q pydot

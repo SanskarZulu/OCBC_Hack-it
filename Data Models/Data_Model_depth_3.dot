@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="number_of_lanes_monitored_for_traffic_volume <= 2.5\nmse = 9882882.8\nsamples = 100077\nvalue = 2877.5"] ;
+1 [label="number_of_lanes_in_direction_indicated <= 1.5\nmse = 1557845.4\nsamples = 69129\nvalue = 1065.2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Functional_classes_Urban: Principal Arterial - Other <= 0.5\nmse = 63714.9\nsamples = 32692\nvalue = 259.4"] ;
+1 -> 2 ;
+3 [label="mse = 39220.7\nsamples = 31054\nvalue = 223.1"] ;
+2 -> 3 ;
+4 [label="mse = 28748.0\nsamples = 1638\nvalue = 948.7"] ;
+2 -> 4 ;
+5 [label="Functional_classes_Urban: Principal Arterial - Interstate <= 0.5\nmse = 1794755.3\nsamples = 36437\nvalue = 1784.3"] ;
+1 -> 5 ;
+6 [label="mse = 965721.8\nsamples = 31046\nvalue = 1479.7"] ;
+5 -> 6 ;
+7 [label="mse = 2943530.4\nsamples = 5391\nvalue = 3551.6"] ;
+5 -> 7 ;
+8 [label="Functional_classes_Urban: Principal Arterial - Other <= 0.5\nmse = 4681639.4\nsamples = 30948\nvalue = 6939.3"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Functional_classes_Rural: Principal Arterial - Interstate <= 0.5\nmse = 3604154.9\nsamples = 29260\nvalue = 7205.3"] ;
+8 -> 9 ;
+10 [label="mse = 2982183.7\nsamples = 25573\nvalue = 7531.5"] ;
+9 -> 10 ;
+11 [label="mse = 2022483.6\nsamples = 3687\nvalue = 4930.0"] ;
+9 -> 11 ;
+12 [label="latitude <= 32.9\nmse = 497692.8\nsamples = 1688\nvalue = 2260.3"] ;
+8 -> 12 ;
+13 [label="mse = 390906.8\nsamples = 119\nvalue = 3922.8"] ;
+12 -> 13 ;
+14 [label="mse = 248673.1\nsamples = 1569\nvalue = 2117.3"] ;
+12 -> 14 ;
+}
